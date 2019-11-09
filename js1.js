@@ -1,3 +1,5 @@
+var run= function(){
+
 try{
 var fdate = document.getElementsByTagName("abbr");
     for(var i = 0; i< fdate.length; i++){
@@ -188,4 +190,7 @@ var fdate = document.getElementsByTagName("abbr");
 }catch(err){
 	alert(err);
 }
+	
+	
+  };
   
